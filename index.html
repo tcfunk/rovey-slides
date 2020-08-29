@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+				<!-- Title slide with game name, pitch date and release date, and lead's name -->
+				<section
+					data-background-image="/images/rovey.png"
+					data-background-position="left center"
+					data-background-size="25%"
+					data-background-repeat="no-repeat">
+					<h1>Rovey</h1>
+					<dl>
+						<dt>Pitch date</dt>
+						<dd>August 30, 2020</dd>
+						<dt>Release date</dt>
+						<dd>November 29, 2020</dd>
+						<dt>Platform</dt>
+						<dd>Unity 3D / WebGL</dd>
+						<dt>Team lead</dt>
+						<dd>Tyler Funk</dd>
+					</dl>
+				</section>
+
+				<!-- A few things about relevant prior HomeTeam experience -->
+				<section>
+					<h2>Past Experience</h2>
+					<p>First-time team lead. Contributor on several projects, including several 3d projects recently:</p>
+					<ul>
+						<li>Paper to Pail</li>
+						<li>Time Cannon</li>
+					</ul>
+				</section>
+
+				<!-- Cut to demo -->
+				<section>
+					<h2>Demo</h2>
+				</section>
+
+				<!-- Talk a bit more about the game's vision, tone -->
+				<section>
+					<h2>Vision, Tone</h2>
+				</section>
+
+				<!-- Schedule overview slide (can switch to Trello or show pitch-sheet like "sentences" summary all on one slide per each week) -->
+				<section>
+					<h2>Project Plan</h2>
+					<a href="https://trello.com/b/nkBkVsyL" target="_blank">Trello -></a>
+				</section>
+
+				<!-- Roles being looked for (should be game relevant, i.e. not just "art" but what are some specific things will people draw or model for this game?) -->
+				<section
+					data-background-image="/images/uncle_sam.png"
+					data-background-position="left center"
+					data-background-size="33%"
+					data-background-repeat="no-repeat">
+					<h2>We need you!</h2>
+					<ul>
+						<li>3D Modelers</li>
+						<li>Animators</li>
+						<li>Level designers (!)</li>
+						<li>Programmers</li>
+						<li>Musicians</li>
+						<li>Sound effect designers</li>
+						<li>VFX designers</li>
+					</ul>
+				</section>
+
+				<!-- Showing a couple of screenshots from related games of inspiration (ex. the Mario Kart-like, Death Race, others) -->
+				<section>
+					<section><h2>Inspirations</h2></section>
+					<section>
+						<h3>Mario 64</h3>
+						<img src="/images/m64.gif" alt="Mario 64">
+					</section>
+					<section>
+						<h3>Banjo Kazooie</h3>
+						<img src="/images/banjo_kazooiejpg.jpg" alt="Banjo Kazooie">
+					</section>
+					<section>
+						<h3>Portal</h3>
+						<img src="/images/Glados.jpg" alt="Portal">
+						<p>Partly platforming, but also the story and the way that Glados treats the player.</p>
+					</section>
+					<section>
+						<h3>Wall-E</h3>
+						<img src="/images/walle.jpg" alt="Wall-E">
+						<p>Cute, minimal robot with a simple purpose.</p>
+					</section>
+				</section>
+
+				<!-- End on a slide that says either just "Questions" or something like "who's in?" -->
+				<section>
+					<h2>Questions?</h2>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				// backgroundTransition: 'convex',
+				// disableLayout: true,
+				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+				// transition: 'concave'
+			});
+		</script>
+	</body>
+</html>
